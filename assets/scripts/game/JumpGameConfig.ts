@@ -1,0 +1,61 @@
+import { Color, Vec3 } from 'cc';
+
+export const JUMP_GAME_CONFIG = {
+    gravity: 24,
+    jumpVerticalSpeed: 9.4,
+    maxChargeTime: 1.35,
+    minJumpDistance: 2.1,
+    maxJumpDistance: 8.4,
+    cameraOffset: new Vec3(-12, 14, 12),
+    cameraSmooth: 6,
+    restartDelay: 1.6,
+    initialPlatformCount: 6,
+    platformReserveCount: 5,
+    cameraFocusHeight: 1.2,
+    perfectLandingRatio: 0.16,
+    maxFallHeight: -4,
+    worldClearColor: new Color(244, 236, 229, 255),
+    groundColor: new Color(226, 213, 201, 255),
+    playerBodyColor: new Color(56, 104, 168, 255),
+    playerHeadColor: new Color(255, 231, 210, 255),
+    playerCapColor: new Color(239, 131, 84, 255),
+    platformPalette: [
+        new Color(239, 131, 84, 255),
+        new Color(106, 76, 147, 255),
+        new Color(76, 201, 240, 255),
+        new Color(144, 190, 109, 255),
+        new Color(249, 199, 79, 255),
+        new Color(249, 132, 74, 255),
+    ],
+    statusPanelFill: new Color(37, 29, 24, 220),
+    statusPanelStroke: new Color(255, 132, 132, 255),
+    scoreColor: new Color(71, 58, 47, 255),
+    hintColor: new Color(104, 88, 75, 255),
+    statusColor: new Color(255, 255, 255, 255),
+    orientationTipColor: new Color(255, 255, 255, 255),
+    orientationTipBackground: new Color(71, 58, 47, 220),
+    perfectStatusColor: new Color(255, 244, 181, 255),
+    gameOverStatusColor: new Color(255, 244, 244, 255),
+} as const;
+
+export const JUMP_GAME_TEXT = {
+    scorePrefix: '得分',
+    defaultHint: '长按屏幕或鼠标左键蓄力，松手起跳',
+    releaseHint: '松手起跳',
+    observeHint: '观察落点',
+    continueChargeHint: '长按继续蓄力',
+    nextJumpHint: '长按蓄力，跳向下一个方块',
+    restartingHint: '正在重新开始',
+    perfectStatus: 'Perfect +2',
+    gameOverStatus: '游戏失败\n即将重新开始',
+    chargingPrefix: '蓄力',
+    rotateTip: '建议竖屏体验',
+} as const;
+
+export const JUMP_WEB_META = {
+    title: '跳一跳 3D',
+    description: '长按蓄力，松手起跳，看看你能在网页里连续跳到多少分。',
+    themeColor: '#f4ece5',
+    shareTitle: '我在玩跳一跳 3D，来试试你能跳多远',
+    shareDescription: '浏览器打开就能玩，手机触屏和电脑鼠标都支持。',
+} as const;
