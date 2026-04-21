@@ -1,5 +1,5 @@
 # 跳一跳
-在线Web试玩：
+在线Web试玩：[https://late-dawn-d8da.lijiaweimyself.workers.dev/](https://late-dawn-d8da.jumponejump.workers.dev/)
 
 一个基于 `Cocos Creator 3.8.8` 开发的 3D 跳一跳小游戏。
 
