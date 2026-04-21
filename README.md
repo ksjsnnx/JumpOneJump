@@ -1,6 +1,7 @@
 # 跳一跳
 在线Web试玩：[https://late-dawn-d8da.lijiaweimyself.workers.dev/](https://late-dawn-d8da.jumponejump.workers.dev/)
 由于部署在Cloudflare，所以需要用代理访问
+
 一个基于 `Cocos Creator 3.8.8` 开发的 3D 跳一跳小游戏。
 
 玩家通过长按蓄力、松手起跳，在平台之间不断跳跃并累计分数。项目当前支持鼠标和触摸输入，也已经针对 Web 端做了基础适配，适合继续发布到网页试玩。
